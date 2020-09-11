@@ -39,7 +39,7 @@ on:
 
 env:
   REPO_URL: https://github.com/whjddzyx/lede-1
-  REPO_BRANCH: master
+  REPO_BRANCH: 20200416
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: diy.config
   DIY_OP_SH: diy-lede.sh
