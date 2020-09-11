@@ -51,4 +51,4 @@ svn co https://github.com/xiaorouji/openwrt-package/trunk/package package/lean/p
 
 echo "替换文件"
 
-rm -rf ./target/linux/ramips/mt7621/base-files/etc/board.d/02_network && cd .. && cp -f ./02_network openwrt/target/linux/ramips/mt7621/base-files/etc/board.d/ && cd openwrt
+#rm -rf ./target/linux/ramips/mt7621/base-files/etc/board.d/02_network && cd .. && cp -f ./02_network openwrt/target/linux/ramips/mt7621/base-files/etc/board.d/ && cd openwrt
