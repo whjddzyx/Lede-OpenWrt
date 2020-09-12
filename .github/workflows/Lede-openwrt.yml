@@ -38,12 +38,12 @@ on:
 
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: 20200408
+  REPO_URL: https://github.com/whjddzyx/openwrt
+  REPO_BRANCH: openwrt-19.07
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: diy.config
   DIY_OP_SH: diy-lede.sh
-  SSH_ACTIONS: false
+  SSH_ACTIONS: true
   UPLOAD_BIN_DIR: false
   UPLOAD_CONFIG: true
   UPLOAD_FIRMWARE: true
